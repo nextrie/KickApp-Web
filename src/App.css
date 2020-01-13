@@ -2,3 +2,8 @@
 {
     scroll-behavior: smooth;
 }
+
+.appContainer
+{
+    width: 100%;
+}

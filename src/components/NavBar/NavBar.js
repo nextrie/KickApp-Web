@@ -65,31 +65,33 @@ export default class NavBar extends React.Component
         return (
             <>
                 <div className="navBarContainer">
-                    <a href="#">
-                        <img className="appLogo" src={this.getAppLogo()} alt="logo"/>
-                    </a>
-                    <div className="navBarElementsContainer">
-                        <div ref="navMenu" className="navElements">
-                            {
-                                navElements.links.map(element => 
+                    <div className="navPadding">
+                        <a href="#">
+                            <img className="appLogo" src={this.getAppLogo()} alt="logo"/>
+                        </a>
+                        <div className="navBarElementsContainer">
+                            <div ref="navMenu" className="navElements">
                                 {
-                                    return (
-                                        <a key={element.link.title} href={element.link.link}>
-                                            {element.link.title}
-                                        </a>
-                                    );
-                                })
-                            }
-                            <a href="http://app.kickapp.fr">
-                                <div className="roundedGetStartedButton">
-                                    Commencer
-                                </div>
-                            </a>
-                        </div>
-                        <div className="responsiveNavElement">
-                            <a onClick={this.showResponsiveMenu}>
-                                <img src={Burger} />
-                            </a>
+                                    navElements.links.map(element => 
+                                    {
+                                        return (
+                                            <a key={element.link.title} href={element.link.link}>
+                                                {element.link.title}
+                                            </a>
+                                        );
+                                    })
+                                }
+                                <a href="http://app.kickapp.fr">
+                                    <div className="roundedGetStartedButton">
+                                        Commencer
+                                    </div>
+                                </a>
+                            </div>
+                            <div className="responsiveNavElement">
+                                <a onClick={this.showResponsiveMenu}>
+                                    <img src={Burger} />
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
