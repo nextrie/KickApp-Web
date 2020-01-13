@@ -10,7 +10,7 @@ const navElements = {
         {
             link:
             {
-                title: "Home",
+                title: "Accueil",
                 link: "#"
             }
         },
@@ -18,7 +18,7 @@ const navElements = {
         {
             link:
             {
-                title: "PlaceHolder",
+                title: "A propos",
                 link: "#"
             }
         },
@@ -26,7 +26,7 @@ const navElements = {
         {
             link:
             {
-                title: "PlaceHolder",
+                title: "Contact",
                 link: "#"
             }
         }
@@ -82,7 +82,7 @@ export default class NavBar extends React.Component
                             }
                             <a href="http://app.kickapp.fr">
                                 <div className="roundedGetStartedButton">
-                                    Get Started
+                                    Commencer
                                 </div>
                             </a>
                         </div>
