@@ -1,9 +1,69 @@
 *
 {
-    scroll-behavior: smooth;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  font-family: "CeraPro", Helvetica, Arial, sans-serif;
 }
 
 .appContainer
 {
-    width: 100%;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.placeholder
+{
+  background-color: white;
+  width: 100%;
+  height: 100vh;
+}
+
+.background
+{
+  background-color: white;
+}
+
+.regularText
+{
+  color: white;
+}
+
+.coloredText
+{
+  color: #3d5af1;
+}
+
+.secondaryText
+{
+  color: gray;
+}
+
+.italic
+{
+  font-style: italic;
+}
+
+.normal
+{
+  font-style: normal;
+}
+
+.light
+{
+  font-weight: lighter;
+}
+
+.bold
+{
+  font-weight: bold;
+}
+
+.underline
+{
+  text-decoration: underline;
+}
+
+.nodecoration
+{
+  text-decoration: none;
 }

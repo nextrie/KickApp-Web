@@ -1,0 +1,19 @@
+.waveSeparator
+{
+    position: absolute;
+    display: block;
+    bottom: 0;
+    width: 100%;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    border: 0;
+}
+
+svg
+{
+    stroke: transparent;
+    stroke-width: 0px;
+}
