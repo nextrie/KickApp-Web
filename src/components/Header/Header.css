@@ -79,4 +79,5 @@
 {
     height: auto;
     width: 20%;
+    max-width: 320px;
 }

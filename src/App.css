@@ -5,6 +5,15 @@
   font-family: "CeraPro", Helvetica, Arial, sans-serif;
 }
 
+img
+{
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
 .appContainer
 {
   width: 100%;

@@ -3,6 +3,7 @@
     position: absolute;
     display: block;
     bottom: 0;
+    max-height: 350px;
     width: 100%;
     user-select: none;
     -moz-user-select: none;
