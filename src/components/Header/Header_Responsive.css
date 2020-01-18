@@ -45,11 +45,11 @@
 {
     .phoneContainer
     {
-        bottom: -60px;
+        bottom: -140px;
     }
 
     .phoneContainer img
     {
-        width: 35%;
+        width: 200px;
     }
 }
