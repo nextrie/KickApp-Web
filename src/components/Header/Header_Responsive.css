@@ -29,27 +29,6 @@
 
     .phoneContainer
     {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        bottom: -100px;
-    }
-    
-    .phoneContainer img
-    {
-        width: 25%;
-    }
-}
-
-@media screen and (max-width: 600px)
-{
-    .phoneContainer
-    {
-        bottom: -140px;
-    }
-
-    .phoneContainer img
-    {
-        width: 200px;
+        display: none;
     }
 }
