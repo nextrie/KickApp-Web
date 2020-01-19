@@ -1,0 +1,41 @@
+@media screen and (max-width: 1000px)
+{
+    .feature
+    {
+        margin-bottom: 30px;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .feature[direction="left"]
+    {
+        flex-direction: column;
+    }
+
+    .feature[direction="left"] .featureIllustration
+    {
+        justify-content: center;
+    }
+    
+    .featureInfoContainer
+    {
+        text-align: center;
+        width: 100%;
+        align-items: center;
+    }
+
+    .featureDescription
+    {
+        max-width: 100%;
+    }
+
+    .featureIllustration
+    {
+        justify-content: center;
+        width: 100%;
+        padding: 0;
+        margin-top: 15px;
+    }
+}
