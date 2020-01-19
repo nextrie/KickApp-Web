@@ -29,15 +29,14 @@ export default function Features()
                 />
                 <Feature
                     direction="left"
-                    title="Fait toi connaître !"
+                    title="Fais toi connaître !"
                     description="Identifiez vous sur KICK en tant qu'artiste et mettez vos sons à disposition de tout les utilisateurs !"
                     illustration={Music}
                 />
                 <Feature
                     direction="right"
                     title="Rejoignez des groupes !"
-                    description="KICK met en a
-                    vant la possibilité de faire des featurings avec d'autres rappeurs qui vous ont surpris de par leur performance  !"
+                    description="KICK met en avant la possibilité de faire des featurings avec d'autres rappeurs qui vous ont surpris de par leur performance  !"
                     illustration={Compose}
                 />
             </div>
