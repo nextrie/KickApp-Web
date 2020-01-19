@@ -18,7 +18,7 @@ export default function Features()
                 A propos de <span className="coloredText">KICK</span>
             </h1>
             <h3 className="featuresDesc secondaryText">
-                KICK vous propose des <span className="coloredText">fonctionnalités exclusives</span> fournissant a tout rappeur tout les outils nécessaires pour se faire connaître.
+                KICK vous propose des <span className="coloredText">fonctionnalités exclusives</span> fournissant à tout rappeur tous les outils nécessaires pour se faire connaître.
             </h3>
             <div className="featuresContent">
                 <Feature
