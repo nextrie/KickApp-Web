@@ -13,7 +13,7 @@ import Compose from "../../assets/imgs/compose.svg";
 export default function Features()
 {
     return (
-        <div className="featuresContainer">
+        <div id="features" className="featuresContainer">
             <h1 className="featuresTitle">
                 A propos de <span className="coloredText">KICK</span>
             </h1>

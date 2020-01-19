@@ -12,8 +12,8 @@ export default class NavBar extends React.Component
                 <div className="navBarContent">
                     <img src={Logo} alt="logo" className="logo" />
                     <div className="navLinks">
-                        <a className="regularText nodecoration" href="http://google.fr">Accueil</a>
-                        <a className="regularText nodecoration" href="http://google.fr">A propos</a>
+                        <a className="regularText nodecoration" href="#home">Accueil</a>
+                        <a className="regularText nodecoration" href="#features">A propos</a>
                         <a className="regularText nodecoration" href="http://google.fr">Prix</a>
                     </div>
                 </div>
