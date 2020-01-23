@@ -19,4 +19,18 @@
 {
     width: 80%;
     margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.feedBack
+{
+    padding-bottom: 5px;
+}
+
+.note
+{
+    height: 20px;
+    width: 20px;
+    margin-left: 5px;
 }
