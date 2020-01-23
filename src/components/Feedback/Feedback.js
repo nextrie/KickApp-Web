@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Feedback.css"
+import "./Feedback_Responsive.css"
 
 //Components
 import FeedbackCard from "./FeedbackCard/FeedbackCard.js"

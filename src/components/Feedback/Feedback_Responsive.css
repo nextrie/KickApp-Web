@@ -1,0 +1,10 @@
+@media screen and (max-width: 1000px)
+{
+  .feedBackContent
+  {
+    margin-top: 0;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+  }  
+}

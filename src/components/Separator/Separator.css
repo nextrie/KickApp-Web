@@ -18,3 +18,11 @@ svg
     stroke: transparent;
     stroke-width: 0px;
 }
+
+@media screen and (max-height: 800px)
+{
+    .waveSeparator
+    {
+        max-height: 200px;
+    }
+}
