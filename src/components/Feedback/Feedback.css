@@ -1,0 +1,22 @@
+.feedBackContainer
+{
+    margin-top: 50px;
+    width:100%;
+    min-height: 50vh;
+    background-color: #3D5AF1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.feedBackTitle
+{
+    text-align: center;
+}
+
+.feedBackContent
+{
+    width: 80%;
+    margin-top: 40px;
+}
