@@ -27,6 +27,17 @@
     display: flex;
     min-width: 350px;
     justify-content: space-evenly;
+    align-items: center;
+}
+
+.rounded
+{
+    background-color: white;
+    color: #3D5AF1;
+    padding: 7.5px;
+    padding-left: 12.5px;
+    padding-right: 12.5px;
+    border-radius: 20px;
 }
 
 @media screen and (max-width: 500px)
