@@ -11,7 +11,7 @@ import Person from "../../assets/imgs/person.png";
 export default function Feedback()
 {
     return (
-        <div className="feedBackContainer">
+        <div id="feedback" className="feedBackContainer">
             <h1 className="feedBackTitle regularText light">Ce qu'ils en pensent</h1>
             <div className="feedBackContent">
                 <FeedbackCard 
