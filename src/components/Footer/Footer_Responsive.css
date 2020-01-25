@@ -1,0 +1,18 @@
+.footerContent
+{
+    flex-direction: column;
+    width: 100%;
+}
+
+.footerContent div
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 60%;
+}
+
+.footerLinks
+{
+    width: 100%;
+}
