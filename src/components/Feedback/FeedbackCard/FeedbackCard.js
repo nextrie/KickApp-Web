@@ -3,7 +3,6 @@ import "./FeedbackCard.css"
 
 //Images
 import Star from "../../../assets/imgs/star.png";
-import Profile from "../../../assets/imgs/profile.png";
 export default class FeedbackCard extends React.Component
 {
     render()
@@ -11,7 +10,7 @@ export default class FeedbackCard extends React.Component
         return (
             <div className="feedBackCardContainer">
                 <div className="feedBackInformations">
-                    <img src={Profile} alt="pp" />
+                    <img src={this.props.profilePicture} alt="pp" />
                     <div>
                         <h2 className="feedBackName">{this.props.name}</h2>
                         <h4 className="feedBackRole coloredText">{this.props.role}</h4>
@@ -19,11 +18,11 @@ export default class FeedbackCard extends React.Component
                 </div>
                 <div className="feedBackComment">
                     <div className="feedBackStars">
-                        <img className="note" src={Star} />
-                        <img className="note" src={Star} />
-                        <img className="note" src={Star} />
-                        <img className="note" src={Star} />
-                        <img className="note" src={Star} />
+                        <img className="note" src={Star} alt="star" />
+                        <img className="note" src={Star} alt="star" />
+                        <img className="note" src={Star} alt="star" />
+                        <img className="note" src={Star} alt="star" />
+                        <img className="note" src={Star} alt="star" />
                     </div>
                     <h4 className="feedBack secondaryText">
                         {this.props.comment}

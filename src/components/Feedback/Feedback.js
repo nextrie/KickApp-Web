@@ -5,6 +5,9 @@ import "./Feedback_Responsive.css"
 //Components
 import FeedbackCard from "./FeedbackCard/FeedbackCard.js"
 
+//Images
+import Person from "../../assets/imgs/person.png";
+
 export default function Feedback()
 {
     return (
@@ -12,22 +15,25 @@ export default function Feedback()
             <h1 className="feedBackTitle regularText light">Ce qu'ils en pensent</h1>
             <div className="feedBackContent">
                 <FeedbackCard 
-                    name="Gustave Eiffel"
+                    name="Pierre Alfaye"
                     role="Rappeur Amateur"
                     note={4}
-                    comment="J'aime beaucoup manger du poisson, c'est alors que je me suis dis que cette application était faîte pour moi. Depuis, je ne peux plus m'en séparer."
+                    comment="J'ai pu me faire connaître et j'ai pu rencontrer des beatmakers et me faire remarquer par des producteurs."
+                    profilePicture={Person}
                 />
                 <FeedbackCard 
-                    name="Louis XIV"
+                    name="Alex Huttler"
                     role="Fan de rap"
                     note={4}
                     comment="Grâce à KICK, j'ai pu rencontrer mon rappeur favoris et monter un featuring avec lui dans son prochain album."
+                    profilePicture={Person}
                 />
                 <FeedbackCard 
-                    name="Harry Potter"
-                    role="Apprenti Sorcier"
+                    name="Bryan Shaulk"
+                    role="Rappeur Confirmé"
                     note={4}
-                    comment="Walking like i'm talking, walking, walking like i'm talking."
+                    comment="KICK m'a permis de rejoindre une communauté de fan de rap US. J'ai pu y faire de merveilleuses rencontres."
+                    profilePicture={Person}
                 />
             </div>
         </div>
