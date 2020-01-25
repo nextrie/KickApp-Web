@@ -7,8 +7,8 @@ import "./Fonts.css"
 //Components
 import Header from "./components/Header/Header.js";
 import Features from "./components/Features/Features.js";
-import Feedback from './components/Feedback/Feedback';
-
+import Feedback from './components/Feedback/Feedback.js';
+import Get_Started from "./components/Get_Started/Get_Started.js";
 export default class App extends React.Component {
   render()
   {
@@ -17,9 +17,7 @@ export default class App extends React.Component {
         <Header />
         <Features />
         <Feedback />
-        <div className="placeholder">
-          
-        </div>
+        <Get_Started />
       </div>
     );
   }

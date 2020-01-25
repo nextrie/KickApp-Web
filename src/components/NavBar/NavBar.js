@@ -15,7 +15,7 @@ export default class NavBar extends React.Component
                         <a className="regularText nodecoration" href="#home">Accueil</a>
                         <a className="regularText nodecoration" href="#features">A propos</a>
                         <a className="regularText nodecoration" href="#feedback">Avis</a>
-                        <a className="regularText rounded nodecoration" href="http://google.fr">Connexion</a>
+                        <a className="regularText rounded nodecoration" href="https://google.fr">Connexion</a>
                     </div>
                 </div>
             </div>
